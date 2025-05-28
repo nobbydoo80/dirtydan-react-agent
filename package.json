@@ -1,0 +1,11 @@
+{
+  "name": "nextjs",
+  "version": "1.0.0",
+  "description": "ReAct loop OSINT agent",
+  "type": "module",
+  "scripts": {
+    "dev": "node api/react.js",
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
