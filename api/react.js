@@ -8,7 +8,10 @@ export default async function handler(req, res) {
     "danny0023",
     "chaosphere23@gmail.com",
     "dirtydan318",
-    "JeSuisDirtyDan"
+    "JeSuisDirtyDan",
+    "acidsperm",
+    "reddit:x3y3gn",
+    "site:web.archive.org/web/*/reddit.com/r/tifu/comments/x3y3gn"
   ];
 
   try {
