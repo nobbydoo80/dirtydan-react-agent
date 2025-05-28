@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deploy ReAct Agent - Guardr</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #000;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            color: #888;
+            margin-bottom: 30px;
+            line-height: 1.6;
+        }
+        .deploy-btn {
+            display: inline-block;
+            background: #0070f3;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.2s;
+            margin: 10px;
+        }
+        .deploy-btn:hover {
+            background: #0051cc;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,112,243,0.4);
+        }
+        .features {
+            text-align: left;
+            background: #111;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        .features li {
+            margin: 10px 0;
+        }
+        code {
+            background: #222;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Deploy Your Own ReAct Agent</h1>
+        <p>Join the distributed OSINT network monitoring Daniel Obregon and associated aliases.</p>
+        
+        <a href="https://api.vercel.com/v1/integrations/deploy/prj_63mEzXAEehTqa1aiLDyqAFB1j7qT/dXJ2GojHt0" class="deploy-btn">
+            Deploy to Vercel
+        </a>
+        
+        <a href="https://github.com/nobbydoo80/dirtydan-react-agent" class="deploy-btn" style="background: #333;">
+            View on GitHub
+        </a>
+        
+        <div class="features">
+            <h3>What You'll Deploy:</h3>
+            <ul>
+                <li>🔍 Automated monitoring every 15 minutes</li>
+                <li>📡 Tracks 9+ known aliases</li>
+                <li>🌐 Monitors IP blocks: <code>172.56.0.0/13</code>, <code>173.252.64.0/18</code></li>
+                <li>🚨 Sends alerts to Guardr webhook</li>
+                <li>⚡ Serverless deployment (free tier eligible)</li>
+            </ul>
+        </div>
+        
+        <p style="font-size: 0.9em;">
+            Each deployment creates an independent monitoring node.<br>
+            Deploy multiple instances for redundant coverage.
+        </p>
+    </div>
+</body>
+</html>
