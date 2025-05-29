@@ -11,7 +11,8 @@ export default async function handler(req, res) {
     "JeSuisDirtyDan",
     "acidsperm",
     "reddit:x3y3gn",
-    "site:web.archive.org/web/*/reddit.com/r/tifu/comments/x3y3gn"
+    "site:web.archive.org/web/*/reddit.com/r/tifu/comments/x3y3gn",
+    "sithslayer23@gmail.com"
   ];
 
   try {
